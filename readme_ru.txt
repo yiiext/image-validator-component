@@ -17,9 +17,12 @@ CFileValidate по этому содержит все возможности э�
 
 Использование
 ---------------------
+~~~
+[php]
 public function rules()
 {
 	return array(
 		array('inputname', 'EImageValidator', 'on'=>'a'),
 	);
 }
+~~~
